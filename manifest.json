@@ -1,0 +1,22 @@
+{
+    "name" : "QR Code Generator and Scanner" ,
+    "description" : "Generate and Scan QR codes" ,
+    "version" : "1.0" ,
+    "manifest_version" : 3 ,
+    "action" : {
+        "default_popup" : "index.html" ,
+        "default_icon" : "Img/icon.png"
+    } ,
+    "permissions": [
+        "videoCapture",
+        "audioCapture",
+        "storage",
+        "unlimitedStorage",
+        "idle",
+        "chromeosInfoPrivate",
+        "fileManagerPrivate",
+        "fileSystem.requestDownloads",
+        {"fileSystem": ["write", "directory"]}
+      ]
+
+}
